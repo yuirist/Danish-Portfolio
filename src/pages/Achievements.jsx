@@ -18,8 +18,6 @@ const Achievements = () => {
       description:
         'Appointed as the faculty team lead for the UTHM Inter-Faculty Sports Championship. Directed team strategy and managed group dynamics in a high-pressure competitive environment. This role sharpened my abilities in clear communication, conflict resolution, and collaborative goal-setting-skills I apply directly to agile software development and team-based technical projects.',
       tech_stack: ['Leadership', 'Teamwork', 'SAF', 'UTHM'],
-      source_link:
-        'https://www.linkedin.com/posts/hfzkdr_arlearning-medicaleducation-innovation-activity-7125663966193758208-TGvP?utm_source=share&utm_medium=member_desktop',
     },
     {
       image_url: GuitarDanish,
@@ -27,8 +25,6 @@ const Achievements = () => {
       description:
         'Acted as Team Leader and Lead Guitarist for Malam Citra Budaya, leading a band performance by coordinating members, organizing and managing rehearsal schedules, and overseeing overall performance execution. Contributed to musical arrangement and stage presence, ensuring a cohesive and engaging performance, while demonstrating strong leadership, teamwork, communication, and live performance skills.',
       tech_stack: ['Leadership', 'Teamwork', 'Music', 'Performance'],
-      source_link:
-        'https://www.youtube.com/watch?v=bFQIHZKmY-s&ab_channel=BeritaRTM',
     },
 
     {
@@ -37,8 +33,6 @@ const Achievements = () => {
       description:
         'Led a team for Musical Explorace at SK Bukit Rahman, overseeing member coordination, delegating tasks, and managing end-to-end communication with school authorities to ensure clear alignment of objectives. Planned and organized activity flow, monitored team progress, and ensured smooth execution of the event, demonstrating strong leadership, organizational, and interpersonal skills while delivering an engaging and well-structured program.',
       tech_stack: ['Leadership', 'Event Management', 'Communication', 'Community'],
-      source_link:
-        'https://www.linkedin.com/posts/hfzkdr_contentcreator-creative-streaming-activity-7064923382227619840--mof?utm_source=share&utm_medium=member_desktop',
     },
     {
       image_url: SulamDanish,
@@ -46,8 +40,6 @@ const Achievements = () => {
       description:
         'Served as a Committee Member for the SULAM Program at Universiti Tun Hussein Onn Malaysia, assisting in guiding primary school students to build basic websites using Wix. Facilitated structured, hands-on learning sessions, provided continuous technical support during activities, and simplified fundamental web design concepts to suit young learners. Contributed to planning and coordinating program activities, ensured smooth session flow, and fostered an engaging, supportive learning environment.',
       tech_stack: ['Web Development', 'Community Service', 'Mentorship', 'UTHM'],
-      source_link:
-        'https://www.facebook.com/deARTsa.UPM/videos/1058452658362783/',
     },
     {
       image_url: FutsalDanish,
@@ -56,8 +48,6 @@ const Achievements = () => {
       description:
         'Represented a team as a participant in the Futsal Tournament at Sekolah Dato’ Abdul Razak (SDAR), contributing to overall team performance through effective coordination, clear on-field communication, and active gameplay. Demonstrated the ability to work collaboratively in a fast-paced and competitive environment, while maintaining discipline, adaptability, and strong sportsmanship throughout the tournament.',
       tech_stack: ['Teamwork', 'Sportsmanship', 'Agility', 'Coordination'],
-      source_link:
-        'https://www.youtube.com/watch?v=0SQseOXalc8&ab_channel=KPZtv%21Channel',
     },
     {
       image_url: BandDanish,
@@ -66,8 +56,6 @@ const Achievements = () => {
       description:
         'Participated in Program Jom Masuk U/IPTA Zon Selatan (Latihan & Persembahan Busking), engaging in structured training sessions and live busking performances in a public setting. Actively contributed to group performances while developing musical performance skills, stage confidence, and audience engagement abilities. Gained valuable experience performing in front of diverse audiences, improving teamwork, adaptability, and real-world stage performance.',
       tech_stack: ['Performance', 'Public Engagement', 'Teamwork', 'Confidence'],
-      source_link:
-        'https://www.linkedin.com/posts/hfzkdr_industrialvisit-digitaltwin-metaverse-activity-7077438812720680960-9TJb?utm_source=share&utm_medium=member_desktop',
     },
   ]
 
@@ -93,7 +81,6 @@ const Achievements = () => {
             title={project.project_name}
             description={project.description}
             stacks={project.tech_stack}
-            source_link={project.source_link}
           />
         ))}
       </div>
