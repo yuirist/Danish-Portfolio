@@ -55,7 +55,7 @@ const NavBar = () => {
               duration={500}
               to="home"
             >
-              Hafiz Kadir
+              Muhammad Danish Bin Jamari
             </Link>{' '}
             <span className="blink" />
           </h1>

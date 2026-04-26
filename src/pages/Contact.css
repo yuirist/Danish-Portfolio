@@ -12,7 +12,9 @@
 }
 
 .footer-text {
-  color: rgb(48, 9, 8)
+  color: rgb(48, 9, 8);
+  font-size: 1rem;
+  margin-left: 0;
 }
 
 .footer-left h1 {
@@ -76,6 +78,18 @@ h3 span a::after {
   display: flex;
   align-items: center;
   gap: 2rem;
+}
+
+.contact .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.contact .social-icons a {
+  color: #1f1f1f;
+  font-size: 2rem;
 }
 
 .social p {

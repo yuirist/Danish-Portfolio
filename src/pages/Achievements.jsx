@@ -1,65 +1,71 @@
 import React from 'react'
 import './Achievement.css'
 import ProjectCard from '../components/ProjectCard'
+import DanishVolleyball from '../assets/danishvolleyball.jpg'
+import GuitarDanish from '../assets/guitardanish.jpg'
+import MusicDanish from '../assets/musicdanish.jpg'
+import SulamDanish from '../assets/sulamdanish.jpg'
+import FutsalDanish from '../assets/futsaldanish.jpg'
+import BandDanish from '../assets/banddanish.jpg'
 
 const Achievements = () => {
   // Manually define the project data
   const projectData = [
     {
-      image_url: 'https://i.imgur.com/ewJQJM7.jpg',
+      image_url: DanishVolleyball,
       project_name:
-        'International University Carnival on E-Learning (IUCEL) 2022 - Gold Medal Winner',
+        'Sukan Antara Fakulti (SAF) Volleyball - Gold Medal Winner',
       description:
-        "My passion project, an Augmented Reality mobile application for learning the anatomy and physiology of respiratory system, has earned international recognition and a prestigious Gold Medal at IUCEL 2022! 🌐🏅🧬 What makes this achievement even more special is the invaluable impact it has on medical education. We all know that understanding the human body''s intricacies is a critical foundation for any healthcare professional, and my app aims to make this learning experience not only effective but also engaging and interactive.",
-      tech_stack: ['IIDEL', 'IUCEL', 'Gold Medal', 'Adobe XD'],
+        'Appointed as the faculty team lead for the UTHM Inter-Faculty Sports Championship. Directed team strategy and managed group dynamics in a high-pressure competitive environment. This role sharpened my abilities in clear communication, conflict resolution, and collaborative goal-setting-skills I apply directly to agile software development and team-based technical projects.',
+      tech_stack: ['Leadership', 'Teamwork', 'SAF', 'UTHM'],
       source_link:
         'https://www.linkedin.com/posts/hfzkdr_arlearning-medicaleducation-innovation-activity-7125663966193758208-TGvP?utm_source=share&utm_medium=member_desktop',
     },
     {
-      image_url: 'https://i.imgur.com/MmBGiz7.jpg',
-      project_name: 'PutraLova Trailer Editor - Featured in RTM',
+      image_url: GuitarDanish,
+      project_name: 'Team Leader & Lead Guitarist - Malam Citra Budaya',
       description:
-        'I am immensely proud to have participated in the prestigious Putra Longest Nonstop Volunteerism Activities (PutraLOVA), a remarkable event organized by the Co-curriculum and Student Development Centre, UPM. PutraLOVA is an extraordinary endeavor, setting a record by successfully conducting 40 hours of nonstop volunteerism activities, and earning a well-deserved place in the Malaysia Book of Records. In this event, I had the privilege to serve as the Trailer Volunteerism Editor, which was a challenging and fulfilling role. This experience not only allowed me to contribute to the community but also honed my organizational and communication skills. It is an accomplishment that I hold dear and consider a significant highlight in my portfolio, reflecting my dedication to making a positive impact through volunteerism and my ability to take on responsible roles in noteworthy initiatives.',
-      tech_stack: ['Volunteerism', 'MBOR', 'RTM', 'VN'],
+        'Acted as Team Leader and Lead Guitarist for Malam Citra Budaya, leading a band performance by coordinating members, organizing and managing rehearsal schedules, and overseeing overall performance execution. Contributed to musical arrangement and stage presence, ensuring a cohesive and engaging performance, while demonstrating strong leadership, teamwork, communication, and live performance skills.',
+      tech_stack: ['Leadership', 'Teamwork', 'Music', 'Performance'],
       source_link:
         'https://www.youtube.com/watch?v=bFQIHZKmY-s&ab_channel=BeritaRTM',
     },
 
     {
-      image_url:
-        ' https://i.imgur.com/QYXqttx.jpg',
-      project_name: 'MDEC-PRISMA Top 100 Creative Streamer',
+      image_url: MusicDanish,
+      project_name: 'Team Leader - Musical Explorace at SK Bukit Rahman',
       description:
-        "Awarded by Malaysia Digital Economic Corporation (MDEC) in Pakej Rangsangan Industri Kreatif Malaysia (PRISMA) Digital Content Grant. Excited to have made it to the Top 100 Creative Streamers, a testament to the power of digital creativity in shaping the future. 🎮💡",
-      tech_stack: ['E-Sport', 'Valorant', 'MASUM'],
+        'Led a team for Musical Explorace at SK Bukit Rahman, overseeing member coordination, delegating tasks, and managing end-to-end communication with school authorities to ensure clear alignment of objectives. Planned and organized activity flow, monitored team progress, and ensured smooth execution of the event, demonstrating strong leadership, organizational, and interpersonal skills while delivering an engaging and well-structured program.',
+      tech_stack: ['Leadership', 'Event Management', 'Communication', 'Community'],
       source_link:
         'https://www.linkedin.com/posts/hfzkdr_contentcreator-creative-streaming-activity-7064923382227619840--mof?utm_source=share&utm_medium=member_desktop',
     },
     {
-      image_url: 'https://i.imgur.com/oF88WvT.jpg',
-      project_name: 'Inter-University E-Sport Competition (MASUM) - Valorant UPM Team ',
+      image_url: SulamDanish,
+      project_name: 'Committee Member - SULAM Program (Web Development)',
       description:
-        "I am incredibly proud to have represented Universiti Putra Malaysia in the interuniversity esports championship organized by Majlis Sukan Universiti Malaysia (MASUM). Through skill, teamwork, and dedication, our team not only made it through the challenging group stage but also secured a spot among the top 16 teams in the competition. This accomplishment is a testament to our hard work and commitment to excellence in Valorant. It's an honor to compete at this level and to showcase the talent and competitive spirit of our university on a national stage. ",
-      tech_stack: ['E-Sport', 'Valorant', 'MASUM'],
+        'Served as a Committee Member for the SULAM Program at Universiti Tun Hussein Onn Malaysia, assisting in guiding primary school students to build basic websites using Wix. Facilitated structured, hands-on learning sessions, provided continuous technical support during activities, and simplified fundamental web design concepts to suit young learners. Contributed to planning and coordinating program activities, ensured smooth session flow, and fostered an engaging, supportive learning environment.',
+      tech_stack: ['Web Development', 'Community Service', 'Mentorship', 'UTHM'],
       source_link:
         'https://www.facebook.com/deARTsa.UPM/videos/1058452658362783/',
     },
     {
-      image_url: 'https://i.imgur.com/GJNXnuL.jpg',
-      project_name: 'E-Sport Forum - Speaker',
+      image_url: FutsalDanish,
+      project_name:
+        'Futsal Tournament Participant - Sekolah Dato’ Abdul Razak (SDAR)',
       description:
-        "🎮 Excited to be a part of the Esports Forum organized by KPZ TV during the Za'ba Esport 21 Closing Ceremony! 🌐 As a representative of Universiti Putra Malaysia and having recently competed in the MASUM Interuniversity Esports Championship, I've shared insights into our journey, the challenges we overcame, and the lessons learned in the world of Valorant. 🏆 I bring the audience explore the dynamic landscape of esports, celebrating the spirit of competition, and discussed the future of gaming at this prestigious event! 🚀",
-      tech_stack: ['E-Sport','KPZtv', 'Forum'],
+        'Represented a team as a participant in the Futsal Tournament at Sekolah Dato’ Abdul Razak (SDAR), contributing to overall team performance through effective coordination, clear on-field communication, and active gameplay. Demonstrated the ability to work collaboratively in a fast-paced and competitive environment, while maintaining discipline, adaptability, and strong sportsmanship throughout the tournament.',
+      tech_stack: ['Teamwork', 'Sportsmanship', 'Agility', 'Coordination'],
       source_link:
         'https://www.youtube.com/watch?v=0SQseOXalc8&ab_channel=KPZtv%21Channel',
     },
     {
-      image_url:
-        'https://i.imgur.com/PeA07RZ.jpg',
-      project_name: 'Industrial Visit UPM to Innoveam - Presenter',
+      image_url: BandDanish,
+      project_name:
+        'Participant - Program Jom Masuk U/IPTA Zon Selatan (Busking Performance)',
       description:
-        "Thrilled to have had the opportunity to showcase the cutting-edge world of 3D simulation and Extended Reality (XR) at Innoveam during the recent industrial visit by the talented juniors from Universiti Putra Malaysia! 🎓I had the privilege of presenting Innoveam's dynamic profile to the bright minds from UPM, giving them a glimpse into our journey of creating immersive digital solutions, fostering deeper connections between academia and industry to create mutually beneficial partnerships that bridge the gap between theory and real-world application.",
-      tech_stack: ['Internship', 'AcademiaXIndustry', 'Innoveam'],
+        'Participated in Program Jom Masuk U/IPTA Zon Selatan (Latihan & Persembahan Busking), engaging in structured training sessions and live busking performances in a public setting. Actively contributed to group performances while developing musical performance skills, stage confidence, and audience engagement abilities. Gained valuable experience performing in front of diverse audiences, improving teamwork, adaptability, and real-world stage performance.',
+      tech_stack: ['Performance', 'Public Engagement', 'Teamwork', 'Confidence'],
       source_link:
         'https://www.linkedin.com/posts/hfzkdr_industrialvisit-digitaltwin-metaverse-activity-7077438812720680960-9TJb?utm_source=share&utm_medium=member_desktop',
     },

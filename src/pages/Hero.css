@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10% 0 0;
+  padding: 13% 0 0;
 }
 
 .description {
@@ -24,7 +24,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 35%;
+  width: 31%;
+  height: auto;
+  margin: 0 auto;
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -83,7 +85,24 @@
 .social-icons {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 2.5rem;
+}
+
+.hero-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.profile-views {
+  margin: 0;
+}
+
+.hero-social-icons {
+  justify-content: flex-start;
+  gap: 1.5rem;
 }
 
 .social-icons a {
@@ -131,7 +150,7 @@
   }
 
   .hero-image {
-    width: 35%;
+    width: 31%;
   }
 
   .paragraph {
@@ -177,7 +196,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
   }
 
   .hero-btns {
@@ -196,7 +217,7 @@
   }
 
   .social-icons {
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .social-icons a {
